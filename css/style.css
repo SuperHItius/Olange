@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
 h3 {
     margin: 0;
 }
@@ -7,6 +10,7 @@ body {
     width: 100%;
     max-width: 1440px;
     margin: auto;
+    font-family: 'Poppins', 'Montserrat' sans-serif;
 }
 
 .header {
@@ -18,21 +22,23 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 36px;
-    padding-left: 90px;
-    padding-bottom: 29px;
-    outline: 1px solid red;
+}
+
+.header-menu__box {
+    width: 100%;
+    max-width: 1300px;
+    padding: 36px 40px 29px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header-menu__left {
     display: flex;
-    outline: 1px solid red;
 }
 
 .header-menu__right {
     display: flex;
-    outline: 1px solid red;
-    padding-right: 40px;
 }
 
 .header-menu__right-items {
@@ -63,46 +69,39 @@ body {
 }
 
 .header-menu__headlines {
-    /* margin: 70px 250px 2px 218px; */
-    /* color: #FFFFFF; */
-    outline: 1px solid red;
     position: absolute;
     padding: 70px 218px 5px 218px;
     width: 100%;
     max-width: 1005px;
 }
 
-.header-menu__headlines h3 {
+.header-menu__headlines-first {
     color: #FFFFFF;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 24px;
-    line-height: 36px;
     text-align: center;
+    margin-top: 0;
 }
 
-.header-menu__headlines h1 {
+.header-menu__headlines-second {
     font-weight: bold;
     font-size: 58px;
-    line-height: 80px;
     text-align: center;
     color: #FFFFFF;
+    margin-top: 30px;
 }
 
-.header-menu__headlines h4 {
+.header-menu__headlines-third {
     font-weight: 500;
     font-size: 24px;
-    line-height: 38px;
     color: #F6F6F6;
     text-align: center;
 }
 
 .header-menu__banner-btm {
-    position: absolute;
-    /* margin-top: 401px; 
-    margin-left: 521px; */
     width: 100%;
     max-width: 520px;
-    padding: 401px 413px 145px 521px;
+    margin: auto;
 }
 
 .header-menu__banner-btm__left {
@@ -121,10 +120,11 @@ body {
     width: 100%;
     max-width: 236px;
     margin-left: 34px;
-    padding: 16px 59px;
+    padding: 16px 54px 16px 55px;
     border-radius: 30px;
     border: 1px solid #FFFFFF;
     background: rgba(0, 0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 24px;
     line-height: 36px;
@@ -137,6 +137,10 @@ body {
 }
 
 .header-menu__banner-phone img {
-    padding: 0 355px 124px 409px;
-    margin-top: -263px;
+    margin-top: -100px;
+    width: 100%;
+    max-width: 550px;
+    height: 100%;
+    max-height: 640px;
+    padding: 0 150px;
 }
